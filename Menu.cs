@@ -293,8 +293,8 @@ namespace Nim.Console
             System.Console.Clear();
 
             // Drawing nav
-            var nav = "";
-            var cur = Current;
+            var nav = Current.Name;
+            var cur = Current.Parent;
             var cursor = 0;
 
             while (cur != null)

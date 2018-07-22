@@ -1,13 +1,13 @@
-# Console.Menu
+﻿# Console.Menu
 CSharp console menu allows you to quickly and easily organize a complex menu.
 
 ## Features
 
 ### Navigation
-![Imgur](https://i.imgur.com/rlaT30j.png)
+![Imgur](https://i.imgur.com/OzcHtiO.png)
 
 ### Dynamic
-![Imgur](https://i.imgur.com/gBNtea1.png)
+![Imgur](https://i.imgur.com/BqrrLkv.png)
 
 ### Input
 ![Imgur](https://i.imgur.com/L0FNzQY.png)
@@ -61,7 +61,6 @@ namespace MenuTest
             Menu.Begin();
         }
 
-
         static void Print()
         {
             Menu.WriteLine("Selected: " + Menu.Selected.Name);
@@ -99,4 +98,4 @@ namespace MenuTest
 }
 
 ```
-![Imgur](https://i.imgur.com/uWwAWnd.png)
+![Imgur](https://i.imgur.com/OPDjcpd.png)
